@@ -4,16 +4,21 @@ body{
     background-color: rgb(246, 236, 236);
 }
 
+.display{
+    display: flex;
+}
+
 .square{
     background-color: white;
     width: 70%;
     margin-left: 15%;
     padding-right: 3%;
     border-radius: 25px;
+
 }
 
 .firstpizza{
-    -webkit-mask-image:-webkit-gradient(linear, right top, left top,  from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    -webkit-mask-image:-webkit-linear-gradient(180deg, #FFFFFF 24.6%, rgba(255, 255, 255, 0.94) 37.11%, rgba(255, 255, 255, 0.9) 46.89%, rgba(255, 255, 255, 0) 82.49%);
     width: 123%;
     margin-left: -15%;
     margin-top: -15%;
@@ -22,6 +27,7 @@ body{
 .display1{
     width: 50%;
 }
+
 nav{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
@@ -31,8 +37,60 @@ nav{
 .first{
     margin-top: 10%;
     margin-left: 5%;
-    display: flex;
     
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+
+}
+.menu{
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    margin: 5%;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 2%;
+
+}
+.title{
+    text-align: center;
+}
+
+.price{
+    color: #05A84B;
+    text-align: center;
+}
+.desc{
+    font-weight: 300 !important;
+    font-size: 14px;
+    color: #333333 !important;
+    text-align: center;
+}
+#pizzaSelect{
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #BDBDBD;
+    border-radius: 50px !important;
+    padding: 3%;
+
+    
+}
+
+.imageMenu{
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+.order{
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    margin-left:5%;
+    margin-top: 5%;
+ 
+
 }
 
 h1{
@@ -42,8 +100,16 @@ h1{
     font-weight: 700;
 }
 
+.second{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
 
-p{
+.top{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     margin-top: -7% ;
@@ -63,7 +129,16 @@ button{
     border: none;
     color: white;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20%;
+    font-family: 'Fira Sans', sans-serif ;
+    font-size: 16px;
+
+
+}
+
+.button{
+    
+    margin: 0 !important;
 }
 
 ul{
