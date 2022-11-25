@@ -9,11 +9,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (min-width: 320px) and (max-width: 500px)">
+
 </head>
 
 <body>
+    <!-- Mobile nav -->
+    <div id="wrap">
+        <header class="header">
+            <nav class="nav">
+                <a href="#wrap" id="open">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27"
+                        xml:space="preserve">
+                        <rect fill="#FFFFFF" width="34" height="4" />
+                        <rect y="11" fill="#FFFFFF" width="34" height="4" />
+                        <rect y="23" fill="#FFFFFF" width="34" height="4" />
+                    </svg>
+                </a>
+                <a href="#" id="close">×</a>
+                <h1><img src="image/logo.svg" alt="">Pizza time</h1>
+                <a href="#"></a>
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Promo</a>
+                <a href="#"><img src="image/search.svg" alt="" class="svg"></a>
+                <a href="#"><img src="image/shop.svg" alt=""></a>
+            </nav>
+        </header>
+    </div>
     <div class="square">
-        <header>
+        <!-- Desktop nav -->
+        <header class="desktop">
             <nav>
                 <img src="image/feuille.png" alt="" class="absolut feuille">
                 <ul>
@@ -21,6 +48,7 @@
                     <li class="logo">Pizza Time</li>
                     <li class="push navbar">Home</li>
                     <li class="navbar">Menu</li>
+                    <li class="navbar">Promo</li>
                     <li class="navbar"><img src="image/search.svg" alt=""></li>
                     <li class="navbar"><img src="image/shop.svg" alt="">
                     </li>
@@ -48,7 +76,7 @@
             <h2>Recommended menu</h2>
             <div class="second">
                 <div class="menu">
-                    <img src="image/pizza3.png" alt="" class="imageMenu">
+                    <img src="image/pizza2.png" alt="" class="imageMenu">
                     <p class="title">Cheese Lovers</p>
                     <p class="desc">Combination of Alfredo sauce and two <br> cheeses – Romano, and Parmesan.</p>
                     <p class="price">$20.00</p>
@@ -59,7 +87,7 @@
 
                 </div>
                 <div class="menu">
-                    <img src="image/pizza3.png" alt="" class="imageMenu">
+                    <img src="image/pizza2.2.png" alt="" class="imageMenu">
                     <p class="title">Pepperoni Pizza</p>
                     <p class="desc">Pizza with homemade spicy beef sausage</p>
                     <p class="price">$25.00</p>
@@ -80,9 +108,11 @@
                     <button class="order">ADD TO CART</button>
                 </div>
             </div>
-            <img src="image/tomate2.png" alt="" class=" tomate2">
+            <img src="image/feuille3.png" alt="" class=" feuille3 absolut">
+            <img src="image/tomate2.png" alt="" class=" tomate2 absolut">
         </section>
     </div>
+    <footer><img src="image/footer.png" alt=""></footer>
 </body>
 
 </html>

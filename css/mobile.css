@@ -1,0 +1,87 @@
+.absolut{
+    display: none;
+}
+
+.display1{
+   margin-left: 20%;
+}
+
+.display{
+    display: initial;
+}
+
+.second{
+    display: initial;
+}
+
+.firstpizza{
+    margin-top: 10%;
+    width: 117.5%;
+}
+.square{
+    margin-left: 23%;
+    width: 90%;
+}
+
+#wrap {
+ 
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 21px;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    color: #f00;
+    transition: transform .4s cubic-bezier(.25, .1, .25, 1);
+  }
+  
+  #wrap:not(:target) {
+    transform: translate3d(-335px, 0, 0);
+  }
+  
+  #wrap:target {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  #open,
+  #close {
+    height: 44px;
+    text-align: right;
+    display: block;
+    margin-right: -30px;
+  }
+  
+  #wrap:target #open,
+  #wrap:not(:target) #close {
+    display: none;
+  }
+  
+  #wrap:target #open {
+    display: none;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+  }
+  
+  .header {
+    background-color: green;
+    width: 360px;
+    padding: 0 20px;
+    display:inline-block;
+    vertical-align:top;
+    position: absolute;
+  }
+  
+  .nav {
+    padding: 25px;
+  }
+  
+.svg{
+    color: white;
+}
+
+.desktop{
+    display: none;
+}

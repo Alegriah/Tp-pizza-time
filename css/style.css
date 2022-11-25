@@ -14,8 +14,8 @@ body{
     margin-left: 15%;
     padding-right: 3%;
     border-radius: 25px;
-    position: relative;
-    z-index: 1;
+    /* position: absolute; */
+   
 }
 
 .firstpizza{
@@ -62,6 +62,13 @@ h2{
     color: #05A84B;
     text-align: center;
 }
+#wrap{
+    display: none;
+}
+
+.header{
+    display: none;
+}
 .desc{
     font-weight: 300 !important;
     font-size: 14px;
@@ -78,21 +85,28 @@ h2{
     
 }
 
+.feuille3{
+    position: absolute;
+    margin-left: 66%;
+    margin-top: -2%;
+}
+
 .tomate2{
-    margin-top: -6%;
-    margin-left:-7%;
-    position: relative;
-    z-index: 2;
+    margin-top: -7%;
+    margin-left:-6%;
+    position: absolute;
+    z-index: -1;
 }
 
 .feuille2{
-    margin-left: -12%;
+    margin-left: -15%;
 }
 
 .absolut{
     position: absolute;
 
 }
+
 
 .tomate{
     margin-left: 64%;
@@ -107,8 +121,10 @@ h2{
 
 .imageMenu{
     width: 70%;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-top: 10%;
+    border-radius: 50%;
+
 }
 
 .order{
@@ -142,6 +158,10 @@ h2{
     font-size: 36px;
 }
 
+footer{
+    margin-top: 2%;
+    text-align: center;
+}
 .logo{
     margin-left: -1%;
     margin-top: 1.5%;
